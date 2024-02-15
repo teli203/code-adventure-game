@@ -1,4 +1,5 @@
-// this is a previously written story if can be modified //
+// This is a previously written story it can be modified //
+// This file is going to be imported in due to the length. Its repeative by chp. You have an obj for each chp with the id as the chp. a title, text, img (free img), and the options which I limited to two and each option directs you to the next id of txt nodes. //
 export const textNodes = [
   {
     id: 1,
