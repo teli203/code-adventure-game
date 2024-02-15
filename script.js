@@ -10,3 +10,20 @@ function toggleButtonState(disable) {                   /* disable the btns when
         button.disable = disable;
     }
 }
+
+function showTextNode(textNodeIndex) {
+    if(window.animationInterval) {
+        clearInterval(window.animationInterval)
+    }
+
+    const textNode = textNodes.find((textNode) => textNode.id === textNodeIndex);
+    titleElement.innerText =textNode.title;
+    storyElement.textContent = "";                      /* clearing the text of the previous pg if theres one */
+
+    const backgroundElement = document.getElementById("background");
+    backgroundElement.style.backgroundImage = 'url("' +textNode.img + '")';
+    backgroundElement.style.backgroundSize ="cover";
+    backgroundElement.style.backgroundPosition ="center";
+
+    
+}
