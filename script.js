@@ -25,5 +25,15 @@ function showTextNode(textNodeIndex) {
     backgroundElement.style.backgroundSize ="cover";
     backgroundElement.style.backgroundPosition ="center";
 
-    
+    while (choicesElement.firstChild) {
+        choicesElement.removeChild(choicesElement.firstChild);
+    }
+
+    textNode.options.forEach((option) => {
+        const button = document.createElement("button");
+        button.innerText = option.text;
+        button.classList.add("choice");
+        button.addEventListener("click", () => selectOption(option));
+        choicesElement.appendChild(button);
+    });
 }
