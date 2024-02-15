@@ -63,3 +63,23 @@ function selectOption (option) {
 }
 
 window.onload = () => showTextNode(1);                            /* at this point the pg is rendering in LIVE!!! Doing what it is suppose to do */
+
+/* Music and button elements */
+const bgMusic = document.getElementById("bgMusic");
+const musicToggle = document.getElementById("musicToggle");
+
+bgMusic.loop = true;
+
+let musicPlaying = false;
+musicToggle.innerText = "Play Music";
+
+musicToggle.addEventListener("click", () => {
+    if(musicPlaying) {
+        bgMusic.pause();
+        musicToggle.innerText = "Play Music";
+    } else {
+        bgMusic.play();
+        musicToggle.innerText = "Pause Music";
+    }
+    musicPlaying + !musicPlaying;
+});
