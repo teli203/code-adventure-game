@@ -36,4 +36,18 @@ function showTextNode(textNodeIndex) {
         button.addEventListener("click", () => selectOption(option));
         choicesElement.appendChild(button);
     });
+
+    const words = textNode.text.split("");
+    let index = 0;                                      /* split all characters of the words */
+
+    toggleButtonState(true);
+
+    window.animationInterval = setInterval(() => {
+        if (index < words.length) {
+            storyElement.textContent += words[index++];
+        } else {
+            clearInterval(window.animationInterval);
+            toggleButtonState(false);
+        }
+    }, 20);
 }
