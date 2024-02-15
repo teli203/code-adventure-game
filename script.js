@@ -62,4 +62,4 @@ function selectOption (option) {
     showTextNode(nextTextNodeId);
 }
 
-window.onload = () => showTextNode(1);
+window.onload = () => showTextNode(1);                            /* at this point the pg is rendering in LIVE!!! Doing what it is suppose to do */
