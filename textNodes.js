@@ -1,3 +1,4 @@
+// this is a previously written story if can be modified //
 export const textNodes = [
   {
     id: 1,
