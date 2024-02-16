@@ -38,6 +38,7 @@ body  {
     width: 45%;
     padding: 10px;
     border-radius: 8px;
+    box-shadow: 20px 20px 50px #ffffff;
 }
 
 #story {
