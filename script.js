@@ -70,16 +70,16 @@ const musicToggle = document.getElementById("musicToggle");
 
 bgMusic.loop = true;
 
-let musicPlaying = false;
+let musiPlaying = false;
 musicToggle.innerText = "Play Music";
 
 musicToggle.addEventListener("click", () => {
-    if(musicPlaying) {
+    if(musiPlaying) {
         bgMusic.pause();
         musicToggle.innerText = "Play Music";
     } else {
         bgMusic.play();
         musicToggle.innerText = "Pause Music";
     }
-    musicPlaying + !musicPlaying;
+    musiPlaying + !musicPlaying;
 });
