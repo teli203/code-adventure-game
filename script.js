@@ -52,9 +52,9 @@ function showTextNode(textNodeIndex) {
     }, 20);
 }
 
-function selectOption (option) {
-    if(option.action === "link") {
-        window.open(option.linkURL, "_blank");                    /* <= the link in textNode.js | blank to open in a new tab */
+function selectOption(option) {
+    if (option.action === "link") {
+        window.open(option.linkUrl, "_blank");                    /* <= the link in textNode.js | blank to open in a new tab */
         return;
     }
 
