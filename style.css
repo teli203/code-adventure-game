@@ -4,7 +4,7 @@ body  {
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(0deg, #040404 0%, #2b3031, rgb(134, 133, 133) 100%);
-    color: rgb(243, 238, 238);
+    color: whitesmoke;
 }
 
 #container {
