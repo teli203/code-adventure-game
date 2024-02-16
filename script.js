@@ -81,5 +81,5 @@ musicToggle.addEventListener("click", () => {
         bgMusic.play();
         musicToggle.innerText = "Pause Music";
     }
-    musiPlaying + !musicPlaying;
+    musiPlaying = !musiPlaying;
 });
