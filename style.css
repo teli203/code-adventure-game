@@ -30,3 +30,23 @@ body  {
     border-radius: 5px;
     border: 1.5px solid white;
 }
+
+.choice {
+    font-weight: '600';
+    font-size: 16px;
+    cursor: pointer;
+    width: 45%;
+    padding: 8px;
+}
+
+#story {
+    height: 75px;
+    width: 100;
+}
+
+#title {
+    font-size: 20px;
+    font-weight: '600';
+}
+
+#
