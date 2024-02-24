@@ -1,6 +1,6 @@
 <img width="1438" alt="Screenshot 2024-02-15 at 11 34 44 PM" src="https://github.com/teli203/code-adventure-game/assets/68035449/95e6d5bd-d6bb-46d7-954d-d4aa35501c7a">
 
-Text Adventure Portfolio Game
+# 🏆 Text Adventure Portfolio Game 🕵🏼‍♀️
 Welcome to our text adventure portfolio game! In this project, I'll be using JavaScript, HTML, and CSS to create a simple yet engaging text-based adventure. The game is designed to showcase creativity and can be expanded upon infinitely.
 
 Introduction
@@ -18,7 +18,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 Acknowledgements
 Special thanks to OpenAI for inspiring this story line to this project and providing valuable resources for learning and development. 🚀✨
 
-# Choose Your Own Adventure Story🕵️
+# Choose Your Own Adventure Story 🤹‍♀️
 
 ## Introduction
 
